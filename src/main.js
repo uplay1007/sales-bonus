@@ -44,7 +44,7 @@ function calculateBonusByProfit(index, total, seller) {
     }
     
 
-    return Math.round(profit * bonusRate);
+    return profit * bonusRate;
 }
 
 /**
